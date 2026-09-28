@@ -11,7 +11,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public double calculateTotalPrice() {
+    public double totalPrice() {
         return price * quantity;
     }
 
