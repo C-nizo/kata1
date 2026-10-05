@@ -1,12 +1,12 @@
 package software.ulpgc;
 
-public class Product {
-    private String name;
+public class Book {
+    private String title;
     private double price;
     private int quantity;
 
-    public Product(String name, double price, int quantity) {
-        this.name = name;
+    public Book(String title, double price, int quantity) {
+        this.title = title;
         this.price = price;
         this.quantity = quantity;
     }
@@ -15,12 +15,12 @@ public class Product {
         return price * quantity;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public double getPrice() {

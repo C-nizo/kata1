@@ -1,8 +1,8 @@
 package software.ulpgc;
 
 public class Main {
-    public static void main(String[] args) {
-        Product product = new Product("Cuaderno", 4.5, 3);
-        System.out.println(product.totalPrice());
+    static void main() {
+        Book book = new Book("Hola", 2.5, 9);
+        System.out.println(book.totalPrice());
     }
 }
