@@ -2,7 +2,7 @@ package software.ulpgc;
 
 public class Main {
     static void main() {
-        Book book = new Book("Hola", 2.5, 9);
-        System.out.println(book.totalPrice());
+        Product product = new Product("Pegamento en barra", 3.5, 2);
+        System.out.println(product.priceWithDiscount(20));
     }
 }
