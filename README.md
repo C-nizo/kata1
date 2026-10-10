@@ -17,6 +17,10 @@ El proyecto utiliza Maven y está configurado para compilar con Java 27 mediante
 
 No se utilizan dependencias externas.
 
+### Nota sobre la configuración del JDK
+
+Durante la configuración inicial fue necesario actualizar IntelliJ IDEA para poder trabajar correctamente con JDK 27. Una vez actualizado el IDE, se configuró OpenJDK 27 como SDK del proyecto y se mantuvo Java 27 como versión de compilación en `pom.xml`.
+
 ## Estructura del proyecto
 
 ```text
@@ -61,7 +65,7 @@ Se creó una clase `Product` con:
 El método derivado calculaba el precio total:
 
 ```java
-totalPrice()
+totalPrice();
 ```
 
 Durante esta repetición se practicó también una refactorización mediante IntelliJ, renombrando el método original `calculateTotalPrice()` a `totalPrice()`.
@@ -79,7 +83,7 @@ Sus atributos fueron:
 El método:
 
 ```java
-totalPrice()
+totalPrice();
 ```
 
 calculaba el precio total de los ejemplares.
@@ -91,7 +95,7 @@ Se volvió a utilizar la entidad `Product`, introduciendo una pequeña variació
 El método:
 
 ```java
-priceWithDiscount(double discount)
+priceWithDiscount(double discount);
 ```
 
 recibe un porcentaje de descuento y calcula el precio total después de aplicarlo.
