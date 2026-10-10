@@ -11,7 +11,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public double priceWithDiscount(double discount) {
+    public double totalPrice(double discount) {
         return quantity * price * (1 - discount / 100);
     }
 
