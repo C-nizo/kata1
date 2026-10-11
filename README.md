@@ -95,7 +95,7 @@ Se volvió a utilizar la entidad `Product`, introduciendo una pequeña variació
 El método:
 
 ```java
-priceWithDiscount(double discount);
+totalPrice(double discount);
 ```
 
 recibe un porcentaje de descuento y calcula el precio total después de aplicarlo.
