@@ -162,4 +162,6 @@ La prueba de clonación se completó correctamente.
 
 ## Vídeo explicativo
 
-**Pendiente de añadir el enlace al vídeo explicativo.**
+El vídeo explicativo de la kata puede consultarse en:
+
+[Ver vídeo explicativo en YouTube](https://youtu.be/F2Ly2uINbtU)
